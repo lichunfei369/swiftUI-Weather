@@ -1,3 +1,4 @@
+
 # swiftUI-Weather
 #### ZStack VStack HStack 
 
@@ -18,8 +19,8 @@ Padding
 
 - Padding 可以添加间距 
 - padding 可以让上下左右添加间距 如果不指定大小系统默认
+<img width="543" alt="截屏2021-08-10 上午11 27 54" src="https://user-images.githubusercontent.com/80322837/128803687-b9285ee9-12be-4813-8a37-a53de532228e.png">
 
-<img src="/Users/apple/Library/Application Support/typora-user-images/image-20210810111555997.png"> 
 
 - 添加到VStack中可以上下空出40距离
 
