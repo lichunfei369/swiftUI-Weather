@@ -62,4 +62,56 @@ Padding
 .padding([.top, .leading], 10)
 ```
 
+#### Button  
 
+```swift
+ Button {
+
+isNight.toggle()
+
+} label:{
+
+	WeatherButton(title: "change Dat Time ",
+
+								textColor: .blue,
+
+								backgroundColor: .white)
+
+}
+```
+
+#### @state   
+
+- @State只能用于当前视图，并且其对应的数据类型为值类型
+- @State本身包含 @propertyWrapper,意味着他是一个属性包装器
+
+1. 通过使用@State，我们可以在未使用mutating的情况下修改结构中的值
+2. 当状态值发生变化后，视图会自动重绘以反应状态的变化。
+
+```swift
+struct ContentView: View {
+    
+    @State private var isNight = false
+    
+    var body: some View {
+    
+    }
+}
+```
+
+属性包装器
+
+```
+@propertyWrapper
+struct TwelveOrLess {
+    private var number = 0
+    var wrappedValue: Int {
+        get { return number }
+        set { number = min(newValue, 12) }
+    }
+}
+```
+
+#### @Binging  
+
+Binding是数据的一级引用，在SwiftUI中作为数据（状态）双向绑定的桥梁，允许在不拥有数据的情况下对数据进行读写操作。我们可以绑定到多种类型，包括 State ObservedObject 等，甚至还可以绑定到另一个Binding上面。Binding本身就是一个Getter和Setter的封装。
