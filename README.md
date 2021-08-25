@@ -1,5 +1,9 @@
 
 # swiftUI-Weather
+
+
+![img](https://github.com/lichunfei369/swiftUI-Weather/blob/3acd7bc1091eb06f1ada562d10cb6a4908347c67/images.png)
+
 #### ZStack VStack HStack 
 
 - ZStack  深度布局模式  主要可以让图片在底部 
