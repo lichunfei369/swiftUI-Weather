@@ -2,7 +2,7 @@
 # swiftUI-Weather
 
 
-![img](https://github.com/lichunfei369/swiftUI-Weather/blob/3acd7bc1091eb06f1ada562d10cb6a4908347c67/images.png)
+<img src="https://github.com/lichunfei369/swiftUI-Weather/blob/3acd7bc1091eb06f1ada562d10cb6a4908347c67/images.png" width="375">
 
 #### ZStack VStack HStack 
 
